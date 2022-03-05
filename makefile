@@ -10,5 +10,5 @@ README.md: guessinggame.sh
            grep -c '' guessinggame.sh >> README.md
            
   clean:
-       rm README.md
+           rm README.md
        
