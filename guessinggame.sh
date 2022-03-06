@@ -14,15 +14,13 @@ do
    if [[ $filecount -gt $files_in_dir ]]
    then
      echo "The entered value is too high"
+     filecount_from_user
    else
-   then
      echo "The entered value is too low"
      filecount_from_user
     fi
  done
- 
+
  echo "Congratulations!.. You entered the correct value."
- 
-    
-     
+
 
